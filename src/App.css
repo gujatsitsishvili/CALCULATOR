@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.numbers{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+.number-section{
+  display: flex;
+  
+}
+.operators{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 400px;
+
+}
